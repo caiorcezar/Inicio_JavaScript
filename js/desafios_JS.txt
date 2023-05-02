@@ -1,0 +1,43 @@
+Desafio1: Conversão de Temperatura;
+	- Crie um código para a conversão de temperaturas
+	- Formulas:
+		=> Celsius para Fahrenheit: (temperaturaCelsius * 9/5) + 32
+		=> Fahrenheit para Celsius: ((temperaturaFahrenheit - 32) * 5) /9
+
+
+Desafio2: Cálculode IMC;
+	- Crie um código que calcuyla o IMC
+	- Fórmula
+		=> IMC = peso / (altura * altura)
+
+
+Desafio3: Comparação de números
+	- Crie um programa que compara números
+	- Exibir uma mensagem se o primeiro número é maior, menor ou igual ao segundo
+	- Utilizar variáveis e if/else
+
+
+Desafio4: Classificação de faixa etária;
+	- Crie um programa que classifica o usuário com base na idade passada
+	- Utilizar variáveis e if/else
+	- Faixas etárias:
+		=> Criança: 0-12 anos
+		=> Adolescente: 13-17 anos
+		=> Adulto: 18-59 anos
+		=> Idoso: 60 anos ou mais
+
+
+Desafio5: Cálculo de Tarifas
+	- Crie um programa que determine o valor da tarifa
+	- O preço da tarifa normal é de R$2,50
+	- Tarifas:
+		=> Crianças menores que 6 anos: gratis
+		=> Estudantes: 50% de desconto
+		=> Idosos (60 anos ou mais): 30% de desconto
+		=> Regular: tarifa normal
+
+
+Desafio6: Tabuada;
+	- Crie um programa que exiba a tabuada de um número
+	- Urtilize as mulrtiplicações do número de 1 ao 10
+	- Utilizar estruturas de repertição
