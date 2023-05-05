@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbling</title>
+    
+    <style>
+        div, p, a{
+            padding: 20px 40px;
+            display: block;
+            border:  3px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Bubbling - Borbulhamento</h1>
+
+    <div onclick="alert('Borbulhamento: '+ this.tagName)">DIV
+        <p onclick="alert('Borbulhamento: '+ this.tagName)">P
+            <a href="#" onclick="alert('Borbulhamento: '+ this.tagName)">A</a>
+        </p>
+    </div>
+</body>
+</html>
