@@ -1,0 +1,6 @@
+Capturar os inputs de um formulário e adicioná-los em uma tabela HTMl.
+	- Os inputs devem ser de Nome, Peso, Altura
+	- A tabela deve apresentar, em uma nova linha, os valores informados nos inputs além do IMC 
+	- IMC = peso/(altura * altura)
+	- A tabela deve conter um cabeçalho
+	- Os elementos HTML devem estar estilizados em uma folha de estilo externa

@@ -1,13 +1,11 @@
 
 
 function mudaClasse (){
-    const retangulo = document.getElementsByClassName('retangulo');
+    const retangulo = document.querySelector('.retangulo');
 
     retangulo.classList.toggle('ativo');
 }
 
-const botao= document.getElementsByClassName('btn');
+const botao= document.querySelector('.btn');
 
-botao.addEventListener('click', () =>{
-    mudaClasse()
-})
+botao.addEventListener('click', mudaClasse)
